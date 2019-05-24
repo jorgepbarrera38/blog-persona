@@ -1,4 +1,5 @@
 @extends('blog.layouts.main')
+@section('description', $post->excerpt)
 @section('title', $post->title)
 @section('content')
 <article class="blog-post px-3 py-5 p-md-5">
