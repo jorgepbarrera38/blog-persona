@@ -1,4 +1,5 @@
 @extends('blog.layouts.main')
+@section('title', $user->name)
 @section('content')
     <section class="cta-section theme-bg-light py-5">
 		    <div class="container text-center">

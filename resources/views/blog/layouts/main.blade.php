@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="es"> 
 <head>
-    <title>{{ $user->name }}</title>
+    <title>@yield('title')</title>
     
     <!-- Meta -->
     <meta charset="utf-8">
