@@ -13,10 +13,10 @@ class UsersTableSeeder extends Seeder
     public function run()
     {
         User::create([
-            'name' => 'Jorge Alexis Paz Barrera',
-            'email' => 'jorgepbarrera38@gmail.com',
-            'username' => 'alexis',
-            'info' => 'Hola soy Alexis, soy ingeniero de sistemas y me apasiona el desarrollo de software, en cuanto a programación tengo conocimientos en Laravel, Node.Js, Vue, Electron-vue entre otras tecnologías.',
+            'name' => 'Default names',
+            'email' => 'admin@mail.com',
+            'username' => 'default',
+            'info' => 'Info',
             'password' => bcrypt(123456)
         ]);
     }

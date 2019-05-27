@@ -14,8 +14,8 @@
 			    
 			    <div class="blog-post-body">
                     <p class="text-justify">
-						<img width="200" src="{{ asset('images') }}/{{ $post->image }}" alt="" 
-							class="rounded float-left" style="margin-right:15px">
+						<!--<img width="200" src="{{ asset('images') }}/{{ $post->image }}" alt="" 
+							class="rounded float-left" style="margin-right:15px">-->
 						{!! $post->body !!}
 					</p>
 			    </div>
